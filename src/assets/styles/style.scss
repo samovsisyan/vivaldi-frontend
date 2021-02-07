@@ -1,3 +1,24 @@
+@import "animate.css";
+@import "bootstrap.min.css";
+@import "core-style.css";
+@import "font-awesome.min.css";
+@import "jquery-ui.min.css";
+@import "magnific-popup.css";
+@import "nouislider.css";
+@import "owl.carousel.css";
+@import "responsive.css";
+@import "themify-icons.css";
+
 * {
   margin: 0;
+}
+
+.modal-center{
+  display: block;
+  overflow-y: scroll;
+
+}
+
+.fa-phone{
+  margin-right: 7px;
 }
