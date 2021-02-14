@@ -22,7 +22,7 @@ function Home() {
               </button>
 
               <div className="modal-body">
-                <div className="quickview_body">
+               <div className="quickview_body">
                   <div className="container">
                     <div className="row">
                       <div className="col-12 col-lg-5">
@@ -104,7 +104,7 @@ function Home() {
       <section className="welcome_area">
         <div className="welcome_slides owl-carousel">
           <div className="single_slide height-800 bg-img background-overlay"
-               style={{"backgroundImage": "url(images/bg-images/bg-1.jpg)"}}>
+               style={{"backgroundImage": "url(images/bg-images/glavni-1.png)"}}>
             <div className="container h-100">
               <div className="row h-100 align-items-center">
                 <div className="col-12">
@@ -121,7 +121,7 @@ function Home() {
           </div>
 
           <div className="single_slide height-800 bg-img background-overlay"
-               style={{"backgroundImage": "url(images/bg-images/bg-4.jpg)"}}>
+               style={{"backgroundImage": "url(images/bg-images/glavni-2.png)"}}>
             <div className="container h-100">
               <div className="row h-100 align-items-center">
                 <div className="col-12">
@@ -138,7 +138,7 @@ function Home() {
           </div>
 
           <div className="single_slide height-800 bg-img background-overlay"
-               style={{"backgroundImage": "url(images/bg-images/bg-2.jpg)"}}>
+               style={{"backgroundImage": "url(images/bg-images/glavni-1.png)"}}>
             <div className="container h-100">
               <div className="row h-100 align-items-center">
                 <div className="col-12">
@@ -157,7 +157,7 @@ function Home() {
       </section>
       <section className="top_catagory_area d-md-flex clearfix">
         <div className="single_catagory_area d-flex align-items-center bg-img"
-             style={{"backgroundImage": "url(images/bg-images/bg-2.jpg)"}}>
+             style={{"backgroundImage": "url(images/bg-images/glavni-1.png)"}}>
           <div className="catagory-content">
             <h6>On Accesories</h6>
             <h2>Sale 30%</h2>
@@ -165,7 +165,7 @@ function Home() {
           </div>
         </div>
         <div className="single_catagory_area d-flex align-items-center bg-img"
-             style={{"backgroundImage": "url(images/bg-images/bg-3.jpg)"}}>
+             style={{"backgroundImage": "url(images/bg-images/glavni-2.png)"}}>
           <div className="catagory-content">
             <h6>in Bags excepting the new collection</h6>
             <h2>Designer bags</h2>
@@ -309,93 +309,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="offer_area height-700 section_padding_100 bg-img">
-        <div className="container h-100">
-          <div className="row h-100 align-items-end justify-content-end">
-            <div className="col-12 col-md-8 col-lg-6">
-              <div className="offer-content-area wow fadeInUp" data-wow-delay="1s">
-                <h2>White t-shirt <span className="karl-level">Hot</span></h2>
-                <p>* Free shipping until 25 Dec 2017</p>
-                <div className="offer-product-price">
-                  <h3><span className="regular-price">$25.90</span> $15.90</h3>
-                </div>
-                <Link to="#" className="btn karl-btn mt-30">Shop Now</Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="karl-testimonials-area section_padding_100">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="section_heading text-center">
-                <h2>Testimonials</h2>
-              </div>
-            </div>
-          </div>
 
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-8">
-              <div className="karl-testimonials-slides owl-carousel">
-
-                <div className="single-testimonial-area text-center">
-                  <span className="quote">"</span>
-                  <h6>Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla
-                    quam,
-                    a iaculis justo finibus non. Suspendisse in fermentum nunc.Nunc pulvinar molestie sem id blandit.
-                    Nunc venenatis interdum mollis. </h6>
-                  <div className="testimonial-info d-flex align-items-center justify-content-center">
-                    <div className="tes-thumbnail">
-                      <img src="images/bg-images/tes-1.jpg" alt=""/>
-                    </div>
-                    <div className="testi-data">
-                      <p>Michelle Williams</p>
-                      <span>Client, Los Angeles</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="single-testimonial-area text-center">
-                  <span className="quote">"</span>
-                  <h6>Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla
-                    quam,
-                    a iaculis justo finibus non. Suspendisse in fermentum nunc.Nunc pulvinar molestie sem id blandit.
-                    Nunc venenatis interdum mollis. </h6>
-                  <div className="testimonial-info d-flex align-items-center justify-content-center">
-                    <div className="tes-thumbnail">
-                      <img src="images/bg-images/tes-1.jpg" alt=""/>
-                    </div>
-                    <div className="testi-data">
-                      <p>Michelle Williams</p>
-                      <span>Client, Los Angeles</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="single-testimonial-area text-center">
-                  <span className="quote">"</span>
-                  <h6>Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla
-                    quam,
-                    a iaculis justo finibus non. Suspendisse in fermentum nunc.Nunc pulvinar molestie sem id blandit.
-                    Nunc venenatis interdum mollis. </h6>
-                  <div className="testimonial-info d-flex align-items-center justify-content-center">
-                    <div className="tes-thumbnail">
-                      <img src="images/bg-images/tes-1.jpg" alt=""/>
-                    </div>
-                    <div className="testi-data">
-                      <p>Michelle Williams</p>
-                      <span>Client, Los Angeles</span>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
       <footer className="footer_area">
         <div className="container">
           <div className="row">
