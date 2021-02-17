@@ -1,14 +1,13 @@
 import axios from 'axios';
 
-export const apiUrl = 'http://localhost:3000/';
+export const apiUrl = 'http://localhost:5000/';
 
 axios.defaults.baseURL = apiUrl;
 
 class Api {
-  static signIn(data) {
-    return axios.post(`http://localhost:8000/auth/login`,data);
+  static getProducts() {
+    return axios.get(`/products`);
   }
-
 }
 
 export default Api;
